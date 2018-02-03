@@ -12,7 +12,7 @@ read -p "Enter grade to be added : " grade
 megaarray=($newarray $grade)
 echo ${megaarray[*]}
 # takes the line of newarray and switch with megaarray
-#sed "s/$newarray/$megaarray/" students.txt
+sed -i "s/$newarray*/$megaarray/" students.txt
 }
 
 add_grade
