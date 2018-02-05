@@ -5,7 +5,7 @@ read -p "Enter student name : " name
 # creates an array with student name and in
 sarr=($id $name)
 # saves the array to a file, named after the student id
-echo ${sarr[*]} > $id.student
+echo ${sarr[*]} > $tom.student
 echo "Student $name created"
 }
 
